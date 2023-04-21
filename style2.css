@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* header part start*/
+header{
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+  
+}
+.name ul li{
+    float: left;
+    list-style: none;
+    padding-inline: 10px;
+}
+.name ul li a{
+    text-decoration: none;
+}
+.name ul li img {
+    height: 25px;
+    width: 25px;
+
+}
+.name ul li button{
+    height: 30px;
+    width: 70px;
+    font-weight: bold;
+    font-size: 15px;
+}
+/* header part end*/
+/*main start*/
+main{
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top:150px;
+ text-align: center;
+}
+main div ul{
+    list-style: none;
+}
+.searchbox input{
+   width: 500px;
+   height: 25px;
+   border-radius: 50px;  
+   outline: none;
+   font-size:16px ;
+   padding-left: 45px;
+padding-right: 60px;
+font-weight: bold;
+}
+.second ul { 
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -25px;
+    left: -20px;
+    pointer-events: none;
+       align-items: center;
+    
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third ul{ 
+    display: flex;  
+position: relative;
+top: -40px;
+}
+.third ul li{
+    padding-inline: 10px;
+}
+.lang{
+    position: relative;
+    top: -50px;
+}
+/*main part end*/
+/*footer start*/
+footer{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display:flex;
+    justify-content: space-between;
+    bottom: 0;
+    position: absolute;
+width: 100%;
+
+}
+.fourth{
+display: flex;
+
+justify-content: center;
+align-items: center;
+
+}
+.fourth ul{
+    display: flex;
+    list-style: none;
+ padding-left: 2px;
+
+}
+.fourth ul li a{
+    text-decoration: none;
+    padding-inline: 20px;
+    color: gray;
+}
+
+.five{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .five ul{
+        display:flex;
+        list-style: none;
+     padding-left: 2px;
+    
+    }
+    .five ul li a{
+        text-decoration: none;
+        padding-inline: 20px;
+        color: gray;
+    }
+    /*footer end*/
+    /*mobile view*/
+    @media ( max-width:750px){
+        .searchbox input{width: 200px;}
+        .fourth ul{ display: block;}
+        .five ul{
+            display: block;
+        }
+
+
+    }
+
+
+ 
+   
+    
+
+   
+
